@@ -36,3 +36,9 @@ Output: 12
 Constraints:
 
 0 <= num <= 106
+  
+  
+Solution-
+  
+ 
+
