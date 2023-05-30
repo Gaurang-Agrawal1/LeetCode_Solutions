@@ -33,3 +33,27 @@ The number of nodes in the list is in the range [1, 100].
 Solution-
   
   
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ *     int val;
+ *     ListNode next;
+ *     ListNode() {}
+ *     ListNode(int val) { this.val = val; }
+ *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode middleNode(ListNode head) {
+        ListNode shlow1 = head;
+        ListNode hfast2 = head;
+
+        while(hfast2 != null && hfast2.next != null)
+        {
+               shlow1 = shlow1.next;
+                  hfast2 = hfast2.next.next;      
+        }
+
+        return shlow1;
+    }
+}
