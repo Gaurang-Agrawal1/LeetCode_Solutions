@@ -33,3 +33,21 @@ Constraints:
   
 Solution-
   
+
+  
+class Solution {
+    public int reverse(int x) {
+        int n1=x;
+        long n2=0;
+        while(n1!=0){
+            int ld=n1%10;
+            n2=10*n2+ld;
+            if(n2>Integer.MAX_VALUE)
+            return 0;
+            if(n2<Integer.MIN_VALUE)
+            return 0;
+            n1/=10;
+        }
+        return (int)n2;
+    }
+}
