@@ -20,6 +20,7 @@ Input: mat =
  [1,1,0,0,0],
  [1,1,1,1,1]], 
 k = 3
+
 Output: [2,0,3]
 Explanation: 
 The number of soldiers in each row is: 
@@ -54,3 +55,8 @@ n == mat[i].length
 2 <= n, m <= 100
 1 <= k <= m
 matrix[i][j] is either 0 or 1.
+
+
+
+
+Solution-
