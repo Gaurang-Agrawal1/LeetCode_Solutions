@@ -50,7 +50,7 @@ Constraints:
 
 
 
-Solution-
+solution-
 
   
 class Solution {
