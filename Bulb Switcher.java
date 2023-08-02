@@ -33,3 +33,6 @@ Output: 1
 Constraints:
 
 0 <= n <= 109
+
+
+Solution-
