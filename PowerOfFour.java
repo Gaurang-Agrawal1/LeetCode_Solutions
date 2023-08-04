@@ -31,3 +31,19 @@ Follow up: Could you solve it without loops/recursion?
 
 
 Solution-
+
+
+
+class Solution {
+    public boolean isPowerOfFour(int n) {
+        if(n<=0){
+            return false;
+        }
+        else{
+            while(n%4==0){
+                n=n/4;
+            }
+            return n==1;
+        }
+    }
+}
