@@ -42,7 +42,7 @@ nums is sorted in ascending order.
 
 
 
-Soluution-
+Solution-
 
 
  public class Solution {
