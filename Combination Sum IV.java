@@ -35,3 +35,9 @@ Constraints:
 1 <= nums[i] <= 1000
 All the elements of nums are unique.
 1 <= target <= 1000
+
+
+
+
+
+Solution-
