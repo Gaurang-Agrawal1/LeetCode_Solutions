@@ -28,3 +28,10 @@ Explanation: From the top-left corner, there are a total of 3 ways to reach the 
 Constraints:
 
 1 <= m, n <= 100
+
+
+
+
+Solution-
+
+ 
