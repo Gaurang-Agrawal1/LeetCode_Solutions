@@ -34,3 +34,31 @@ Constraints:
 The string s consists of characters '0' and '1' only.
 
   Solution-
+
+
+  class Solution {
+    public int maxScore(String s) {
+        int l=s.length();
+        int max1=Integer.MIN_VALUE;
+        int max2=Integer.MIN_VALUE;
+        for(int k=0;k<l-1;k++){
+                 int c1=0;
+                 int c2=0;
+           for(int i=0;i<=k;i++){
+              if(s.charAt(i)=='0'){
+                c1++;
+              }
+        }
+        for(int j=k+1;j<l;j++){
+            if(s.charAt(j)=='1'){
+                c2++;
+            }
+           }
+        max2=c1+c2;
+        if(max1<max2){
+            max1=max2;
+        } 
+        }
+        return max1;
+    }
+}
