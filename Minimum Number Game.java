@@ -28,3 +28,6 @@ Constraints:
 1 <= nums.length <= 100
 1 <= nums[i] <= 100
 nums.length % 2 == 0
+
+
+Solution-
