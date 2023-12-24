@@ -31,3 +31,32 @@ nums.length % 2 == 0
 
 
 Solution-
+
+
+class Solution {
+    public int[] numberGame(int[] nums) {
+            int[] rar = new int[nums.length];
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
+
+             for (int num : nums) {
+               minHeap.add(num);
+        }
+
+        int ex = 0;
+          while (!minHeap.isEmpty()) {
+       
+            int aliceRemoved = minHeap.poll();
+
+            if (!minHeap.isEmpty()) {
+           
+                int bobRemoved = minHeap.poll();
+            
+                rar[ex++] = bobRemoved;
+            }
+
+            rar[ex++] = aliceRemoved;
+        }
+
+               return rar;
+    }
+}
