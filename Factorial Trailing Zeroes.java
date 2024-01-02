@@ -34,3 +34,13 @@ Follow up: Could you write a solution that works in logarithmic time complexity?
 Solution-
 
   
+class Solution {
+    public int trailingZeroes(int n) {
+        int c=0;
+        while(n>0){
+            n=n/5;
+            c+=n;
+        }
+        return c;
+    }
+}
