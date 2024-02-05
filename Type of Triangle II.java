@@ -31,3 +31,7 @@ Constraints:
 
 nums.length == 3
 1 <= nums[i] <= 100
+
+
+
+Solution-
