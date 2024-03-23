@@ -30,6 +30,12 @@ exention -> exection (replace 'n' with 'c')
 exection -> execution (insert 'u')
  
 
+Solution-
+
+
+
+
+
 Constraints:
 
 0 <= word1.length, word2.length <= 500
