@@ -36,4 +36,11 @@ There will be at least one word in s.
 Solution-
 
 
-
+class Solution {
+    public int lengthOfLastWord(String s) {
+        String [] s1=s.split(" ");
+        int n=s1.length;
+        int l=s1[n-1].length();
+        return l;
+    }
+}
