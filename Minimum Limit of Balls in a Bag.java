@@ -37,3 +37,8 @@ Constraints:
 
 1 <= nums.length <= 105
 1 <= maxOperations, nums[i] <= 109
+
+
+Solution-
+
+  
