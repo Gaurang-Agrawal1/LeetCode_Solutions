@@ -34,3 +34,10 @@ Constraints:
 events[i].length == 3
 1 <= startTimei <= endTimei <= 109
 1 <= valuei <= 106
+
+
+Solution--
+
+
+
+ 
