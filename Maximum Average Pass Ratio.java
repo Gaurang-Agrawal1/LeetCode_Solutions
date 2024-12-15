@@ -27,3 +27,8 @@ Constraints:
 classes[i].length == 2
 1 <= passi <= totali <= 105
 1 <= extraStudents <= 105
+
+
+Solution-
+
+ 
