@@ -32,3 +32,10 @@ Constraints:
 
 1 <= prices.length <= 500
 1 <= prices[i] <= 1000
+
+
+
+Solution-
+
+
+ 
