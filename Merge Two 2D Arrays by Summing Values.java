@@ -37,3 +37,7 @@ nums1[i].length == nums2[j].length == 2
 1 <= idi, vali <= 1000
 Both arrays contain unique ids.
 Both arrays are in strictly ascending order by id.
+
+
+Solution-
+
