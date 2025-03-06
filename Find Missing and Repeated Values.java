@@ -25,3 +25,8 @@ Constraints:
 For all x that 1 <= x <= n * n there is exactly one x that is not equal to any of the grid members.
 For all x that 1 <= x <= n * n there is exactly one x that is equal to exactly two of the grid members.
 For all x that 1 <= x <= n * n except two of them there is exatly one pair of i, j that 0 <= i, j <= n - 1 and grid[i][j] == x.
+
+
+Solution-
+
+
