@@ -44,3 +44,8 @@ n == differences.length
 1 <= n <= 105
 -105 <= differences[i] <= 105
 -105 <= lower <= upper <= 105
+
+
+Solution-
+
+
