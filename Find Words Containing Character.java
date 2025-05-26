@@ -33,7 +33,7 @@ x is a lowercase English letter.
 words[i] consists only of lowercase English letters.
 
 
-Solution-
+Solution -
 
 class Solution {
     public List<Integer> findWordsContaining(String[] words, char x) {
