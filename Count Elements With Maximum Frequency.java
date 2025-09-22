@@ -30,3 +30,31 @@ Constraints:
 Solution-
 
 
+class Solution {
+    public int maxFrequencyElements(int[] nums) {
+        int[] freq = new int[101]; // frequency array for 1..100
+        int maxVal = -1;
+        int res = 0;
+
+        // Count frequencies
+        for (int val : nums) {
+            freq[val]++;
+        }
+
+        // Find maximum frequency
+        for (int val : freq) {
+            if (val > maxVal) {
+                maxVal = val;
+            }
+        }
+
+        // Sum contributions of all elements with max frequency
+        for (int val : freq) {
+            if (val == maxVal) {
+                res += maxVal;
+            }
+        }
+
+        return res;
+    }
+}
