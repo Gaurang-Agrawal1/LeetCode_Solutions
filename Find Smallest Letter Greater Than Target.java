@@ -31,3 +31,9 @@ letters[i] is a lowercase English letter.
 letters is sorted in non-decreasing order.
 letters contains at least two different characters.
 target is a lowercase English letter.
+
+
+Solution-
+
+
+  
