@@ -45,3 +45,9 @@ Constraints:
 
 1 <= nums.length <= 1500
 1 <= nums[i] <= 105
+
+
+
+Solution-
+
+
