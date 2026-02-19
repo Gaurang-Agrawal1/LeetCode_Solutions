@@ -27,3 +27,7 @@ Constraints:
 s[i] is either '0' or '1'.
 
 
+Solution-
+
+
+
